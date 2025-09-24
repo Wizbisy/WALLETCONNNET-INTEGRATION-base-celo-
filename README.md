@@ -31,7 +31,7 @@ By following this guide, your dApp will support connections across desktop and m
 
 - Node.js v18+ and npm (or Yarn/PNPM)
 - A dApp scaffold (React, Next.js, or similar)
-- A [Walletconnnet Project ID](https://reown.com/appkit)
+- A [Walletconnnet Project ID](https://dashboard.reown.com/sign-in)
 
 ---
 
@@ -158,12 +158,12 @@ export default function ConnectButton() {
 
 Connect directly to Base Mainnet:
 
-```
+```tsx
 connect({ connector, chainId: 8453 });
 ```
 Connect directly to Celo Mainnet:
 
-```
+```tsx
 connect({ connector, chainId: 42220 });
 ```
 
